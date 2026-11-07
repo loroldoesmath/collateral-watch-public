@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Collateral Watch</title>
+  <meta name="description" content="Early-warning risk analytics for multifamily lenders: flags, loss thresholds and stress scenarios.">
+  <!-- content security policy. if you set an api base in config.js, add its origin to connect-src.
+       also send these as http headers from your host, and add frame-ancestors 'none' there. -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self'; base-uri 'none'; form-action 'none'">
+  <meta name="referrer" content="no-referrer">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23000'/%3E%3Cpath d='M5 23 L12 13 L18 18 L27 7' stroke='%234d8bff' stroke-width='3' fill='none'/%3E%3C/svg%3E">
+  <link rel="preload" href="fonts/onest-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site">
+    <div class="wrap bar">
+      <a class="brand" href="#/" aria-label="Collateral Watch home">Collateral Watch</a>
+      <nav aria-label="Primary">
+        <a href="#/console" data-route="console">Console</a>
+        <a href="#/stress" data-route="stress">Stress tests</a>
+        <a href="#/signals" data-route="signals">Signals</a>
+        <a href="#/data" data-route="data">Your data</a>
+        <a href="#/security" data-route="security">Data protection</a>
+      </nav>
+      <a class="btn btn-quiet" href="#/data">Request access</a>
+    </div>
+  </header>
+  <main id="main" tabindex="-1"></main>
+  <footer class="site">
+    <div class="wrap foot">
+      <p>Beta. All figures shown in the sample are synthetic and illustrative. Nothing here is investment, credit or legal advice.</p>
+      <p>&copy; [COPYRIGHT HOLDER]. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="config.js"></script>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+Copyright (c) [COPYRIGHT HOLDER]. All rights reserved.
+
+This repository contains the user interface of a beta product. It is published so that
+it can be viewed and evaluated. No license is granted to copy, modify, redistribute,
+host, or use it commercially, in whole or in part, without written permission from the
+copyright holder.
+
+The risk engine, models, parameters and data pipelines that power the product are not
+part of this repository and are not licensed here.
+
+The Onest typeface in fonts/ is licensed separately under the SIL Open Font License 1.1
+(see fonts/OFL-Onest.txt).

@@ -1,0 +1,735 @@
+{
+ "$schema": "http://json-schema.org/draft-07/schema#",
+ "title": "Assessment payload",
+ "description": "Response of GET /v1/assessment. Describes outputs only.",
+ "type": "object",
+ "required": [
+  "meta",
+  "portfolio",
+  "assets",
+  "scenarios"
+ ],
+ "properties": {
+  "meta": {
+   "type": "object",
+   "required": [
+    "generated_at",
+    "asof",
+    "data_notice",
+    "engine_version",
+    "calibration"
+   ],
+   "properties": {
+    "generated_at": {
+     "type": [
+      "string"
+     ]
+    },
+    "asof": {
+     "type": [
+      "string"
+     ]
+    },
+    "data_notice": {
+     "type": [
+      "string"
+     ]
+    },
+    "engine_version": {
+     "type": [
+      "string"
+     ]
+    },
+    "calibration": {
+     "type": "object",
+     "required": [
+      "status",
+      "notes"
+     ],
+     "properties": {
+      "status": {
+       "type": [
+        "string"
+       ]
+      },
+      "notes": {
+       "type": "array",
+       "items": {
+        "type": [
+         "string"
+        ]
+       }
+      }
+     }
+    }
+   }
+  },
+  "portfolio": {
+   "type": "object",
+   "required": [
+    "asset_count",
+    "total_balance",
+    "wtd_ltv",
+    "wtd_dscr",
+    "red_count",
+    "amber_count",
+    "maturing_24m_balance",
+    "maturity_wall"
+   ],
+   "properties": {
+    "asset_count": {
+     "type": [
+      "integer"
+     ]
+    },
+    "total_balance": {
+     "type": [
+      "number"
+     ]
+    },
+    "wtd_ltv": {
+     "type": [
+      "number"
+     ]
+    },
+    "wtd_dscr": {
+     "type": [
+      "number"
+     ]
+    },
+    "red_count": {
+     "type": [
+      "integer"
+     ]
+    },
+    "amber_count": {
+     "type": [
+      "integer"
+     ]
+    },
+    "maturing_24m_balance": {
+     "type": [
+      "number"
+     ]
+    },
+    "maturity_wall": {
+     "type": "array",
+     "items": {
+      "type": "object",
+      "required": [
+       "year",
+       "balance",
+       "count"
+      ],
+      "properties": {
+       "year": {
+        "type": [
+         "integer"
+        ]
+       },
+       "balance": {
+        "type": [
+         "number"
+        ]
+       },
+       "count": {
+        "type": [
+         "integer"
+        ]
+       }
+      }
+     }
+    }
+   }
+  },
+  "assets": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "id",
+     "name",
+     "market",
+     "property_type",
+     "units",
+     "market_tier",
+     "balance",
+     "value",
+     "ltv",
+     "dscr",
+     "debt_yield",
+     "coupon",
+     "maturity",
+     "months_to_maturity",
+     "occupancy",
+     "noi",
+     "cap_rate",
+     "rent_growth_yoy",
+     "rent_growth_nowcast",
+     "income_return",
+     "appreciation_12m",
+     "risk",
+     "anomalies",
+     "signals",
+     "series"
+    ],
+    "properties": {
+     "id": {
+      "type": [
+       "string"
+      ]
+     },
+     "name": {
+      "type": [
+       "string"
+      ]
+     },
+     "market": {
+      "type": [
+       "string"
+      ]
+     },
+     "property_type": {
+      "type": [
+       "string"
+      ]
+     },
+     "units": {
+      "type": [
+       "integer"
+      ]
+     },
+     "market_tier": {
+      "type": [
+       "integer"
+      ]
+     },
+     "balance": {
+      "type": [
+       "number"
+      ]
+     },
+     "value": {
+      "type": [
+       "number"
+      ]
+     },
+     "ltv": {
+      "type": [
+       "number"
+      ]
+     },
+     "dscr": {
+      "type": [
+       "number"
+      ]
+     },
+     "debt_yield": {
+      "type": [
+       "number"
+      ]
+     },
+     "coupon": {
+      "type": [
+       "number"
+      ]
+     },
+     "maturity": {
+      "type": [
+       "string"
+      ]
+     },
+     "months_to_maturity": {
+      "type": [
+       "integer"
+      ]
+     },
+     "occupancy": {
+      "type": [
+       "number"
+      ]
+     },
+     "noi": {
+      "type": [
+       "number"
+      ]
+     },
+     "cap_rate": {
+      "type": [
+       "number"
+      ]
+     },
+     "rent_growth_yoy": {
+      "type": [
+       "number"
+      ]
+     },
+     "rent_growth_nowcast": {
+      "type": [
+       "number",
+       "null"
+      ]
+     },
+     "income_return": {
+      "type": [
+       "number"
+      ]
+     },
+     "appreciation_12m": {
+      "type": [
+       "number",
+       "null"
+      ]
+     },
+     "risk": {
+      "type": "object",
+      "required": [
+       "level",
+       "score",
+       "p_impairment_12m",
+       "p_decline_10pct_12m",
+       "var95_value_change_12m",
+       "flags",
+       "loss_thresholds",
+       "refinance",
+       "liquidity"
+      ],
+      "properties": {
+       "level": {
+        "type": [
+         "string"
+        ],
+        "enum": [
+         "red",
+         "amber",
+         "green"
+        ]
+       },
+       "score": {
+        "type": [
+         "number"
+        ]
+       },
+       "p_impairment_12m": {
+        "type": [
+         "number"
+        ]
+       },
+       "p_decline_10pct_12m": {
+        "type": [
+         "number"
+        ]
+       },
+       "var95_value_change_12m": {
+        "type": [
+         "number"
+        ]
+       },
+       "flags": {
+        "type": "array",
+        "items": {
+         "type": "object",
+         "required": [
+          "code",
+          "severity",
+          "label",
+          "detail"
+         ],
+         "properties": {
+          "code": {
+           "type": [
+            "string"
+           ]
+          },
+          "severity": {
+           "type": [
+            "string"
+           ],
+           "enum": [
+            "red",
+            "amber"
+           ]
+          },
+          "label": {
+           "type": [
+            "string"
+           ]
+          },
+          "detail": {
+           "type": [
+            "string"
+           ]
+          }
+         }
+        }
+       },
+       "loss_thresholds": {
+        "type": "object",
+        "required": [
+         "value_decline_to_impairment",
+         "noi_decline_to_dscr_1x",
+         "cap_rate_expansion_bps_to_impairment"
+        ],
+        "properties": {
+         "value_decline_to_impairment": {
+          "type": [
+           "number"
+          ]
+         },
+         "noi_decline_to_dscr_1x": {
+          "type": [
+           "number"
+          ]
+         },
+         "cap_rate_expansion_bps_to_impairment": {
+          "type": [
+           "number"
+          ]
+         }
+        }
+       },
+       "refinance": {
+        "type": "object",
+        "required": [
+         "max_proceeds",
+         "gap",
+         "binding_constraint",
+         "feasible"
+        ],
+        "properties": {
+         "max_proceeds": {
+          "type": [
+           "number"
+          ]
+         },
+         "gap": {
+          "type": [
+           "number"
+          ]
+         },
+         "binding_constraint": {
+          "type": [
+           "string"
+          ]
+         },
+         "feasible": {
+          "type": [
+           "boolean"
+          ]
+         }
+        }
+       },
+       "liquidity": {
+        "type": "object",
+        "required": [
+         "time_to_sell_months",
+         "haircut_base",
+         "haircut_stressed",
+         "realizable_ltv_stressed"
+        ],
+        "properties": {
+         "time_to_sell_months": {
+          "type": [
+           "number"
+          ]
+         },
+         "haircut_base": {
+          "type": [
+           "number"
+          ]
+         },
+         "haircut_stressed": {
+          "type": [
+           "number"
+          ]
+         },
+         "realizable_ltv_stressed": {
+          "type": [
+           "number"
+          ]
+         }
+        }
+       }
+      }
+     },
+     "anomalies": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "required": [
+        "metric",
+        "date",
+        "observed",
+        "expected",
+        "z",
+        "direction"
+       ],
+       "properties": {
+        "metric": {
+         "type": [
+          "string"
+         ]
+        },
+        "date": {
+         "type": [
+          "string"
+         ]
+        },
+        "observed": {
+         "type": [
+          "number"
+         ]
+        },
+        "expected": {
+         "type": [
+          "number"
+         ]
+        },
+        "z": {
+         "type": [
+          "number"
+         ]
+        },
+        "direction": {
+         "type": [
+          "string"
+         ],
+         "enum": [
+          "up",
+          "down"
+         ]
+        }
+       }
+      }
+     },
+     "signals": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "required": [
+        "source",
+        "headline",
+        "sentiment"
+       ],
+       "properties": {
+        "source": {
+         "type": [
+          "string"
+         ]
+        },
+        "headline": {
+         "type": [
+          "string"
+         ]
+        },
+        "sentiment": {
+         "type": [
+          "number"
+         ]
+        }
+       }
+      }
+     },
+     "series": {
+      "type": "object",
+      "required": [
+       "dates",
+       "value_index",
+       "occupancy"
+      ],
+      "properties": {
+       "dates": {
+        "type": "array",
+        "items": {
+         "type": [
+          "string"
+         ]
+        }
+       },
+       "value_index": {
+        "type": "array",
+        "items": {
+         "type": [
+          "number"
+         ]
+        }
+       },
+       "occupancy": {
+        "type": "array",
+        "items": {
+         "type": [
+          "number"
+         ]
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "scenarios": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "id",
+     "name",
+     "description",
+     "assumptions",
+     "summary",
+     "assets"
+    ],
+    "properties": {
+     "id": {
+      "type": [
+       "string"
+      ]
+     },
+     "name": {
+      "type": [
+       "string"
+      ]
+     },
+     "description": {
+      "type": [
+       "string"
+      ]
+     },
+     "assumptions": {
+      "type": "object",
+      "required": [
+       "d_rf_bps",
+       "d_credit_bps",
+       "rent_shock",
+       "occupancy_shock_pts",
+       "opex_shock",
+       "cap_rate_shift_bps",
+       "refinance_rate"
+      ],
+      "properties": {
+       "d_rf_bps": {
+        "type": [
+         "number"
+        ]
+       },
+       "d_credit_bps": {
+        "type": [
+         "number"
+        ]
+       },
+       "rent_shock": {
+        "type": [
+         "number"
+        ]
+       },
+       "occupancy_shock_pts": {
+        "type": [
+         "number"
+        ]
+       },
+       "opex_shock": {
+        "type": [
+         "number"
+        ]
+       },
+       "cap_rate_shift_bps": {
+        "type": [
+         "number"
+        ]
+       },
+       "refinance_rate": {
+        "type": [
+         "number"
+        ]
+       }
+      }
+     },
+     "summary": {
+      "type": "object",
+      "required": [
+       "avg_value_change",
+       "loans_impaired",
+       "loans_dscr_below_1",
+       "refi_shortfall_total",
+       "estimated_loss"
+      ],
+      "properties": {
+       "avg_value_change": {
+        "type": [
+         "number"
+        ]
+       },
+       "loans_impaired": {
+        "type": [
+         "integer"
+        ]
+       },
+       "loans_dscr_below_1": {
+        "type": [
+         "integer"
+        ]
+       },
+       "refi_shortfall_total": {
+        "type": [
+         "number"
+        ]
+       },
+       "estimated_loss": {
+        "type": [
+         "number"
+        ]
+       }
+      }
+     },
+     "assets": {
+      "type": "object",
+      "additionalProperties": {
+       "type": "object",
+       "required": [
+        "value_change",
+        "ltv",
+        "dscr",
+        "impaired",
+        "refi_gap",
+        "realizable_loss"
+       ],
+       "properties": {
+        "value_change": {
+         "type": [
+          "number"
+         ]
+        },
+        "ltv": {
+         "type": [
+          "number",
+          "null"
+         ]
+        },
+        "dscr": {
+         "type": [
+          "number"
+         ]
+        },
+        "impaired": {
+         "type": [
+          "boolean"
+         ]
+        },
+        "refi_gap": {
+         "type": [
+          "number"
+         ]
+        },
+        "realizable_loss": {
+         "type": [
+          "number"
+         ]
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}
