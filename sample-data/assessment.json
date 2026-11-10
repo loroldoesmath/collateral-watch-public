@@ -13,36 +13,36 @@
  },
  "portfolio": {
   "asset_count": 14,
-  "total_balance": 390886654.39419407,
-  "wtd_ltv": 0.6950535466134424,
-  "wtd_dscr": 1.2337040752327069,
+  "total_balance": 390886654.394194,
+  "wtd_ltv": 0.695054,
+  "wtd_dscr": 1.233704,
   "red_count": 2,
   "amber_count": 5,
-  "maturing_24m_balance": 209270231.19976193,
+  "maturing_24m_balance": 209270231.199762,
   "maturity_wall": [
    {
     "year": 2027,
-    "balance": 84502938.00677648,
+    "balance": 84502938.006776,
     "count": 2
    },
    {
     "year": 2028,
-    "balance": 124767293.19298543,
+    "balance": 124767293.192985,
     "count": 4
    },
    {
     "year": 2029,
-    "balance": 41457950.20379492,
+    "balance": 41457950.203795,
     "count": 2
    },
    {
     "year": 2030,
-    "balance": 85017130.90613449,
+    "balance": 85017130.906134,
     "count": 3
    },
    {
     "year": 2031,
-    "balance": 55141342.08450275,
+    "balance": 55141342.084503,
     "count": 3
    }
   ]
@@ -55,11 +55,11 @@
    "property_type": "Garden",
    "units": 312,
    "market_tier": 1,
-   "balance": 41277857.712000005,
-   "value": 52250452.800000004,
+   "balance": 41277857.712,
+   "value": 52250452.8,
    "ltv": 0.79,
-   "dscr": 0.9399755026800598,
-   "debt_yield": 0.06835443037974683,
+   "dscr": 0.939976,
+   "debt_yield": 0.068354,
    "coupon": 0.061,
    "maturity": "2027-10-01",
    "months_to_maturity": 11,
@@ -68,14 +68,14 @@
    "cap_rate": 0.054,
    "rent_growth_yoy": 0.015,
    "rent_growth_nowcast": -0.012,
-   "income_return": 0.05399999999999999,
-   "appreciation_12m": 0.056676713136115,
+   "income_return": 0.054,
+   "appreciation_12m": 0.056677,
    "risk": {
     "level": "red",
     "score": 100.0,
-    "p_impairment_12m": 0.08814723324157303,
-    "p_decline_10pct_12m": 0.44594373009547317,
-    "var95_value_change_12m": -0.20339263745779657,
+    "p_impairment_12m": 0.088147,
+    "p_decline_10pct_12m": 0.445944,
+    "var95_value_change_12m": -0.203393,
     "flags": [
      {
       "code": "DSCR",
@@ -127,21 +127,21 @@
      }
     ],
     "loss_thresholds": {
-     "value_decline_to_impairment": 0.20999999999999996,
+     "value_decline_to_impairment": 0.21,
      "noi_decline_to_dscr_1x": 0.0,
-     "cap_rate_expansion_bps_to_impairment": 143.54430379746825
+     "cap_rate_expansion_bps_to_impairment": 143.544304
     },
     "refinance": {
-     "max_proceeds": 31040140.041914552,
-     "gap": 9782835.204996012,
+     "max_proceeds": 31040140.041915,
+     "gap": 9782835.204996,
      "binding_constraint": "dscr",
      "feasible": false
     },
     "liquidity": {
-     "time_to_sell_months": 4.464465709207861,
+     "time_to_sell_months": 4.464466,
      "haircut_base": 0.02,
      "haircut_stressed": 0.084,
-     "realizable_ltv_stressed": 0.8624454148471616
+     "realizable_ltv_stressed": 0.862445
     }
    },
    "anomalies": [
@@ -149,8 +149,8 @@
      "metric": "occupancy",
      "date": "2026-10-31",
      "observed": 0.915,
-     "expected": 0.9634128277402987,
-     "z": -8.922015378505991,
+     "expected": 0.963413,
+     "z": -8.922015,
      "direction": "down"
     }
    ],
@@ -362,27 +362,27 @@
    "property_type": "Mid-rise",
    "units": 214,
    "market_tier": 1,
-   "balance": 43225080.294776484,
-   "value": 56136467.91529413,
+   "balance": 43225080.294776,
+   "value": 56136467.915294,
    "ltv": 0.77,
-   "dscr": 1.12260620735197,
-   "debt_yield": 0.06623376623376623,
+   "dscr": 1.122606,
+   "debt_yield": 0.066234,
    "coupon": 0.059,
    "maturity": "2027-08-01",
    "months_to_maturity": 9,
    "occupancy": 0.934,
-   "noi": 2862959.8636800004,
+   "noi": 2862959.86368,
    "cap_rate": 0.051,
    "rent_growth_yoy": 0.02,
    "rent_growth_nowcast": 0.004,
    "income_return": 0.051,
-   "appreciation_12m": 0.14936425292227695,
+   "appreciation_12m": 0.149364,
    "risk": {
     "level": "red",
-    "score": 58.3618191584077,
-    "p_impairment_12m": 0.04361819158407698,
-    "p_decline_10pct_12m": 0.4159971265709165,
-    "var95_value_change_12m": -0.191910387309143,
+    "score": 58.361819,
+    "p_impairment_12m": 0.043618,
+    "p_decline_10pct_12m": 0.415997,
+    "var95_value_change_12m": -0.19191,
     "flags": [
      {
       "code": "DSCR",
@@ -416,21 +416,21 @@
      }
     ],
     "loss_thresholds": {
-     "value_decline_to_impairment": 0.22999999999999998,
-     "noi_decline_to_dscr_1x": 0.10921568627450973,
-     "cap_rate_expansion_bps_to_impairment": 152.33766233766232
+     "value_decline_to_impairment": 0.23,
+     "noi_decline_to_dscr_1x": 0.109216,
+     "cap_rate_expansion_bps_to_impairment": 152.337662
     },
     "refinance": {
-     "max_proceeds": 31495979.085069645,
-     "gap": 11729101.20970684,
+     "max_proceeds": 31495979.08507,
+     "gap": 11729101.209707,
      "binding_constraint": "dscr",
      "feasible": false
     },
     "liquidity": {
-     "time_to_sell_months": 4.2189887610906025,
+     "time_to_sell_months": 4.218989,
      "haircut_base": 0.02,
      "haircut_stressed": 0.084,
-     "realizable_ltv_stressed": 0.8406113537117903
+     "realizable_ltv_stressed": 0.840611
     }
    },
    "anomalies": [],
@@ -638,26 +638,26 @@
    "units": 276,
    "market_tier": 1,
    "balance": 46469978.688,
-   "value": 61144708.800000004,
+   "value": 61144708.8,
    "ltv": 0.76,
-   "dscr": 1.1327231121281465,
-   "debt_yield": 0.06513157894736843,
+   "dscr": 1.132723,
+   "debt_yield": 0.065132,
    "coupon": 0.0575,
    "maturity": "2028-03-01",
    "months_to_maturity": 16,
    "occupancy": 0.889,
-   "noi": 3026663.0856000003,
+   "noi": 3026663.0856,
    "cap_rate": 0.0495,
    "rent_growth_yoy": 0.02,
    "rent_growth_nowcast": -0.008,
    "income_return": 0.0495,
-   "appreciation_12m": 0.0355046259731262,
+   "appreciation_12m": 0.035505,
    "risk": {
     "level": "amber",
-    "score": 51.773125583599125,
-    "p_impairment_12m": 0.03773125583599124,
-    "p_decline_10pct_12m": 0.4250534073641319,
-    "var95_value_change_12m": -0.19529244156465653,
+    "score": 51.773126,
+    "p_impairment_12m": 0.037731,
+    "p_decline_10pct_12m": 0.425053,
+    "var95_value_change_12m": -0.195292,
     "flags": [
      {
       "code": "DSCR",
@@ -698,20 +698,20 @@
     ],
     "loss_thresholds": {
      "value_decline_to_impairment": 0.24,
-     "noi_decline_to_dscr_1x": 0.11717171717171715,
-     "cap_rate_expansion_bps_to_impairment": 156.31578947368428
+     "noi_decline_to_dscr_1x": 0.117172,
+     "cap_rate_expansion_bps_to_impairment": 156.315789
     },
     "refinance": {
-     "max_proceeds": 33296910.11423308,
-     "gap": 13173068.57376692,
+     "max_proceeds": 33296910.114233,
+     "gap": 13173068.573767,
      "binding_constraint": "dscr",
      "feasible": false
     },
     "liquidity": {
-     "time_to_sell_months": 4.383112975149689,
+     "time_to_sell_months": 4.383113,
      "haircut_base": 0.02,
      "haircut_stressed": 0.084,
-     "realizable_ltv_stressed": 0.8296943231441047
+     "realizable_ltv_stressed": 0.829694
     }
    },
    "anomalies": [],
@@ -919,26 +919,26 @@
    "units": 264,
    "market_tier": 2,
    "balance": 23375786.35392,
-   "value": 32923642.752000004,
+   "value": 32923642.752,
    "ltv": 0.71,
-   "dscr": 1.1437480577527934,
-   "debt_yield": 0.08450704225352113,
+   "dscr": 1.143748,
+   "debt_yield": 0.084507,
    "coupon": 0.0625,
    "maturity": "2028-06-01",
    "months_to_maturity": 19,
    "occupancy": 0.921,
-   "noi": 1975418.5651200002,
+   "noi": 1975418.56512,
    "cap_rate": 0.06,
    "rent_growth_yoy": 0.015,
    "rent_growth_nowcast": -0.012,
    "income_return": 0.06,
-   "appreciation_12m": 0.012877472351447539,
+   "appreciation_12m": 0.012877,
    "risk": {
     "level": "amber",
-    "score": 49.58921851398478,
-    "p_impairment_12m": 0.015892185139847803,
-    "p_decline_10pct_12m": 0.4581993911048131,
-    "var95_value_change_12m": -0.20835364408137846,
+    "score": 49.589219,
+    "p_impairment_12m": 0.015892,
+    "p_decline_10pct_12m": 0.458199,
+    "var95_value_change_12m": -0.208354,
     "flags": [
      {
       "code": "DSCR",
@@ -978,21 +978,21 @@
      }
     ],
     "loss_thresholds": {
-     "value_decline_to_impairment": 0.29000000000000004,
-     "noi_decline_to_dscr_1x": 0.12568157539451996,
-     "cap_rate_expansion_bps_to_impairment": 245.07042253521126
+     "value_decline_to_impairment": 0.29,
+     "noi_decline_to_dscr_1x": 0.125682,
+     "cap_rate_expansion_bps_to_impairment": 245.070423
     },
     "refinance": {
-     "max_proceeds": 21731964.391321987,
-     "gap": 1202055.5290495008,
+     "max_proceeds": 21731964.391322,
+     "gap": 1202055.52905,
      "binding_constraint": "dscr",
      "feasible": false
     },
     "liquidity": {
-     "time_to_sell_months": 6.5309769434231,
+     "time_to_sell_months": 6.530977,
      "haircut_base": 0.04,
      "haircut_stressed": 0.168,
-     "realizable_ltv_stressed": 0.8533653846153847
+     "realizable_ltv_stressed": 0.853365
     }
    },
    "anomalies": [],
@@ -1204,27 +1204,27 @@
    "property_type": "Garden",
    "units": 330,
    "market_tier": 1,
-   "balance": 42811394.73106543,
-   "value": 59460270.459813096,
+   "balance": 42811394.731065,
+   "value": 59460270.459813,
    "ltv": 0.72,
-   "dscr": 1.3268849206349205,
-   "debt_yield": 0.07430555555555556,
+   "dscr": 1.326885,
+   "debt_yield": 0.074306,
    "coupon": 0.056,
    "maturity": "2028-10-01",
    "months_to_maturity": 23,
    "occupancy": 0.926,
-   "noi": 3181124.4696000004,
+   "noi": 3181124.4696,
    "cap_rate": 0.0535,
    "rent_growth_yoy": 0.02,
    "rent_growth_nowcast": -0.008,
    "income_return": 0.0535,
-   "appreciation_12m": 0.1520011738860454,
+   "appreciation_12m": 0.152001,
    "risk": {
     "level": "amber",
-    "score": 40.50766667481743,
-    "p_impairment_12m": 0.005076666748174308,
-    "p_decline_10pct_12m": 0.36880098483032064,
-    "var95_value_change_12m": -0.1753939713105528,
+    "score": 40.507667,
+    "p_impairment_12m": 0.005077,
+    "p_decline_10pct_12m": 0.368801,
+    "var95_value_change_12m": -0.175394,
     "flags": [
      {
       "code": "LTV",
@@ -1259,20 +1259,20 @@
     ],
     "loss_thresholds": {
      "value_decline_to_impairment": 0.28,
-     "noi_decline_to_dscr_1x": 0.24635514018691573,
-     "cap_rate_expansion_bps_to_impairment": 208.05555555555557
+     "noi_decline_to_dscr_1x": 0.246355,
+     "cap_rate_expansion_bps_to_impairment": 208.055556
     },
     "refinance": {
-     "max_proceeds": 34996169.884386346,
-     "gap": 7815224.846679084,
+     "max_proceeds": 34996169.884386,
+     "gap": 7815224.846679,
      "binding_constraint": "dscr",
      "feasible": false
     },
     "liquidity": {
-     "time_to_sell_months": 4.5021855883755375,
+     "time_to_sell_months": 4.502186,
      "haircut_base": 0.02,
      "haircut_stressed": 0.084,
-     "realizable_ltv_stressed": 0.7860262008733625
+     "realizable_ltv_stressed": 0.786026
     }
    },
    "anomalies": [],
@@ -1480,26 +1480,26 @@
    "units": 168,
    "market_tier": 2,
    "balance": 18938196.4464,
-   "value": 25592157.360000003,
+   "value": 25592157.36,
    "ltv": 0.74,
-   "dscr": 1.1230561881227312,
-   "debt_yield": 0.07567567567567568,
+   "dscr": 1.123056,
+   "debt_yield": 0.075676,
    "coupon": 0.054,
    "maturity": "2031-03-01",
    "months_to_maturity": 52,
    "occupancy": 0.902,
-   "noi": 1433160.8121600002,
+   "noi": 1433160.81216,
    "cap_rate": 0.056,
    "rent_growth_yoy": 0.02,
    "rent_growth_nowcast": 0.022,
    "income_return": 0.056,
-   "appreciation_12m": 0.00043614271150027584,
+   "appreciation_12m": 0.000436,
    "risk": {
     "level": "amber",
-    "score": 25.376151155947593,
-    "p_impairment_12m": 0.013761511559475914,
-    "p_decline_10pct_12m": 0.3886956164900205,
-    "var95_value_change_12m": -0.18214355594498988,
+    "score": 25.376151,
+    "p_impairment_12m": 0.013762,
+    "p_decline_10pct_12m": 0.388696,
+    "var95_value_change_12m": -0.182144,
     "flags": [
      {
       "code": "DSCR",
@@ -1522,29 +1522,29 @@
     ],
     "loss_thresholds": {
      "value_decline_to_impairment": 0.26,
-     "noi_decline_to_dscr_1x": 0.10957260146389336,
-     "cap_rate_expansion_bps_to_impairment": 196.7567567567568
+     "noi_decline_to_dscr_1x": 0.109573,
+     "cap_rate_expansion_bps_to_impairment": 196.756757
     },
     "refinance": {
-     "max_proceeds": 15766481.234323744,
-     "gap": 1937343.8593334556,
+     "max_proceeds": 15766481.234324,
+     "gap": 1937343.859333,
      "binding_constraint": "dscr",
      "feasible": false
     },
     "liquidity": {
-     "time_to_sell_months": 6.102867679006511,
+     "time_to_sell_months": 6.102868,
      "haircut_base": 0.04,
      "haircut_stressed": 0.168,
-     "realizable_ltv_stressed": 0.8894230769230769
+     "realizable_ltv_stressed": 0.889423
     }
    },
    "anomalies": [
     {
      "metric": "value_index",
      "date": "2026-10-31",
-     "observed": 124.786989233125,
-     "expected": 135.16860272196078,
-     "z": -16.552690069593666,
+     "observed": 124.786989,
+     "expected": 135.168603,
+     "z": -16.55269,
      "direction": "down"
     }
    ],
@@ -1754,8 +1754,8 @@
    "balance": 12110133.42,
    "value": 17550918.0,
    "ltv": 0.69,
-   "dscr": 1.2892105460277028,
-   "debt_yield": 0.09275362318840581,
+   "dscr": 1.289211,
+   "debt_yield": 0.092754,
    "coupon": 0.06,
    "maturity": "2028-01-01",
    "months_to_maturity": 14,
@@ -1765,13 +1765,13 @@
    "rent_growth_yoy": 0.02,
    "rent_growth_nowcast": -0.006,
    "income_return": 0.064,
-   "appreciation_12m": 0.11347694256986274,
+   "appreciation_12m": 0.113477,
    "risk": {
     "level": "amber",
-    "score": 16.372559086235757,
-    "p_impairment_12m": 0.003725590862357575,
-    "p_decline_10pct_12m": 0.4101808101847515,
-    "var95_value_change_12m": -0.1897770776627835,
+    "score": 16.372559,
+    "p_impairment_12m": 0.003726,
+    "p_decline_10pct_12m": 0.410181,
+    "var95_value_change_12m": -0.189777,
     "flags": [
      {
       "code": "RENT_DECELERATION",
@@ -1787,21 +1787,21 @@
      }
     ],
     "loss_thresholds": {
-     "value_decline_to_impairment": 0.31000000000000005,
-     "noi_decline_to_dscr_1x": 0.2243315080836209,
-     "cap_rate_expansion_bps_to_impairment": 287.5362318840581
+     "value_decline_to_impairment": 0.31,
+     "noi_decline_to_dscr_1x": 0.224332,
+     "cap_rate_expansion_bps_to_impairment": 287.536232
     },
     "refinance": {
-     "max_proceeds": 12357188.310226249,
+     "max_proceeds": 12357188.310226,
      "gap": 0.0,
      "binding_constraint": "dscr",
      "feasible": true
     },
     "liquidity": {
-     "time_to_sell_months": 9.218403648273195,
+     "time_to_sell_months": 9.218404,
      "haircut_base": 0.06,
      "haircut_stressed": 0.252,
-     "realizable_ltv_stressed": 0.9224598930481283
+     "realizable_ltv_stressed": 0.92246
     }
    },
    "anomalies": [],
@@ -2008,11 +2008,11 @@
    "property_type": "Workforce",
    "units": 142,
    "market_tier": 2,
-   "balance": 11242560.789058065,
-   "value": 16533177.630967742,
+   "balance": 11242560.789058,
+   "value": 16533177.630968,
    "ltv": 0.68,
-   "dscr": 1.3091029666450396,
-   "debt_yield": 0.09117647058823529,
+   "dscr": 1.309103,
+   "debt_yield": 0.091176,
    "coupon": 0.057,
    "maturity": "2029-02-01",
    "months_to_maturity": 27,
@@ -2022,30 +2022,30 @@
    "rent_growth_yoy": 0.02,
    "rent_growth_nowcast": 0.027,
    "income_return": 0.062,
-   "appreciation_12m": 0.09330811361173597,
+   "appreciation_12m": 0.093308,
    "risk": {
     "level": "green",
-    "score": 1.3425641853005987,
-    "p_impairment_12m": 0.013425641853005987,
-    "p_decline_10pct_12m": 0.4994156263373437,
-    "var95_value_change_12m": -0.22633150486384157,
+    "score": 1.342564,
+    "p_impairment_12m": 0.013426,
+    "p_decline_10pct_12m": 0.499416,
+    "var95_value_change_12m": -0.226332,
     "flags": [],
     "loss_thresholds": {
-     "value_decline_to_impairment": 0.31999999999999995,
-     "noi_decline_to_dscr_1x": 0.2361181469454665,
-     "cap_rate_expansion_bps_to_impairment": 291.76470588235287
+     "value_decline_to_impairment": 0.32,
+     "noi_decline_to_dscr_1x": 0.236118,
+     "cap_rate_expansion_bps_to_impairment": 291.764706
     },
     "refinance": {
-     "max_proceeds": 11276851.853847738,
+     "max_proceeds": 11276851.853848,
      "gap": 0.0,
      "binding_constraint": "dscr",
      "feasible": true
     },
     "liquidity": {
-     "time_to_sell_months": 5.950874798770134,
+     "time_to_sell_months": 5.950875,
      "haircut_base": 0.04,
      "haircut_stressed": 0.168,
-     "realizable_ltv_stressed": 0.8173076923076924
+     "realizable_ltv_stressed": 0.817308
     }
    },
    "anomalies": [],
@@ -2252,44 +2252,44 @@
    "property_type": "Garden",
    "units": 298,
    "market_tier": 2,
-   "balance": 30215389.414736852,
-   "value": 45780893.052631594,
+   "balance": 30215389.414737,
+   "value": 45780893.052632,
    "ltv": 0.66,
-   "dscr": 1.3106587296345449,
-   "debt_yield": 0.08636363636363636,
+   "dscr": 1.310659,
+   "debt_yield": 0.086364,
    "coupon": 0.052,
    "maturity": "2029-08-01",
    "months_to_maturity": 33,
    "occupancy": 0.936,
-   "noi": 2609510.904000001,
+   "noi": 2609510.904,
    "cap_rate": 0.057,
    "rent_growth_yoy": 0.02,
    "rent_growth_nowcast": 0.027,
    "income_return": 0.057,
-   "appreciation_12m": 0.0532789556159059,
+   "appreciation_12m": 0.053279,
    "risk": {
     "level": "green",
-    "score": 0.5312082411988994,
-    "p_impairment_12m": 0.005312082411988994,
-    "p_decline_10pct_12m": 0.4796858186693005,
-    "var95_value_change_12m": -0.21746165585872335,
+    "score": 0.531208,
+    "p_impairment_12m": 0.005312,
+    "p_decline_10pct_12m": 0.479686,
+    "var95_value_change_12m": -0.217462,
     "flags": [],
     "loss_thresholds": {
-     "value_decline_to_impairment": 0.33999999999999997,
-     "noi_decline_to_dscr_1x": 0.2370248811612209,
-     "cap_rate_expansion_bps_to_impairment": 293.6363636363636
+     "value_decline_to_impairment": 0.34,
+     "noi_decline_to_dscr_1x": 0.237025,
+     "cap_rate_expansion_bps_to_impairment": 293.636364
     },
     "refinance": {
-     "max_proceeds": 28707737.714841984,
-     "gap": 269480.9156256616,
+     "max_proceeds": 28707737.714842,
+     "gap": 269480.915626,
      "binding_constraint": "dscr",
      "feasible": false
     },
     "liquidity": {
-     "time_to_sell_months": 6.650740474976812,
+     "time_to_sell_months": 6.65074,
      "haircut_base": 0.04,
      "haircut_stressed": 0.168,
-     "realizable_ltv_stressed": 0.7932692307692307
+     "realizable_ltv_stressed": 0.793269
     }
    },
    "anomalies": [],
@@ -2496,44 +2496,44 @@
    "property_type": "Garden",
    "units": 204,
    "market_tier": 1,
-   "balance": 25847897.912307695,
-   "value": 41690157.92307693,
+   "balance": 25847897.912308,
+   "value": 41690157.923077,
    "ltv": 0.62,
-   "dscr": 1.3398414642890137,
-   "debt_yield": 0.08387096774193549,
+   "dscr": 1.339841,
+   "debt_yield": 0.083871,
    "coupon": 0.0475,
    "maturity": "2030-10-01",
    "months_to_maturity": 47,
    "occupancy": 0.953,
-   "noi": 2167888.2120000003,
+   "noi": 2167888.212,
    "cap_rate": 0.052,
    "rent_growth_yoy": 0.02,
    "rent_growth_nowcast": 0.031,
-   "income_return": 0.052000000000000005,
-   "appreciation_12m": 0.009921232253164103,
+   "income_return": 0.052,
+   "appreciation_12m": 0.009921,
    "risk": {
     "level": "green",
-    "score": 0.18875646916421962,
-    "p_impairment_12m": 0.0018875646916421962,
-    "p_decline_10pct_12m": 0.4934229132093244,
-    "var95_value_change_12m": -0.2235828143598496,
+    "score": 0.188756,
+    "p_impairment_12m": 0.001888,
+    "p_decline_10pct_12m": 0.493423,
+    "var95_value_change_12m": -0.223583,
     "flags": [],
     "loss_thresholds": {
      "value_decline_to_impairment": 0.38,
-     "noi_decline_to_dscr_1x": 0.25364304161862206,
-     "cap_rate_expansion_bps_to_impairment": 318.70967741935493
+     "noi_decline_to_dscr_1x": 0.253643,
+     "cap_rate_expansion_bps_to_impairment": 318.709677
     },
     "refinance": {
-     "max_proceeds": 23849360.464367595,
-     "gap": 322297.068637874,
+     "max_proceeds": 23849360.464368,
+     "gap": 322297.068638,
      "binding_constraint": "dscr",
      "feasible": false
     },
     "liquidity": {
-     "time_to_sell_months": 4.18881160026365,
+     "time_to_sell_months": 4.188812,
      "haircut_base": 0.02,
      "haircut_stressed": 0.084,
-     "realizable_ltv_stressed": 0.6768558951965066
+     "realizable_ltv_stressed": 0.676856
     }
    },
    "anomalies": [],
@@ -2740,44 +2740,44 @@
    "property_type": "Garden",
    "units": 188,
    "market_tier": 1,
-   "balance": 25275874.590720005,
-   "value": 39493554.04800001,
+   "balance": 25275874.59072,
+   "value": 39493554.048,
    "ltv": 0.64,
-   "dscr": 1.2954412296788447,
-   "debt_yield": 0.08203125,
+   "dscr": 1.295441,
+   "debt_yield": 0.082031,
    "coupon": 0.0485,
    "maturity": "2030-01-01",
    "months_to_maturity": 38,
    "occupancy": 0.951,
-   "noi": 2073411.5875200003,
+   "noi": 2073411.58752,
    "cap_rate": 0.0525,
    "rent_growth_yoy": 0.02,
    "rent_growth_nowcast": 0.031,
    "income_return": 0.0525,
-   "appreciation_12m": 0.06968726591912255,
+   "appreciation_12m": 0.069687,
    "risk": {
     "level": "green",
-    "score": 0.029687704900749345,
-    "p_impairment_12m": 0.00029687704900749345,
-    "p_decline_10pct_12m": 0.3930228022463885,
-    "var95_value_change_12m": -0.1836509743961523,
+    "score": 0.029688,
+    "p_impairment_12m": 0.000297,
+    "p_decline_10pct_12m": 0.393023,
+    "var95_value_change_12m": -0.183651,
     "flags": [],
     "loss_thresholds": {
      "value_decline_to_impairment": 0.36,
-     "noi_decline_to_dscr_1x": 0.22806224081048276,
+     "noi_decline_to_dscr_1x": 0.228062,
      "cap_rate_expansion_bps_to_impairment": 295.3125
     },
     "refinance": {
-     "max_proceeds": 22810004.717051864,
-     "gap": 1186261.5053471513,
+     "max_proceeds": 22810004.717052,
+     "gap": 1186261.505347,
      "binding_constraint": "dscr",
      "feasible": false
     },
     "liquidity": {
-     "time_to_sell_months": 4.137804616969907,
+     "time_to_sell_months": 4.137805,
      "haircut_base": 0.02,
      "haircut_stressed": 0.084,
-     "realizable_ltv_stressed": 0.6986899563318777
+     "realizable_ltv_stressed": 0.69869
     }
    },
    "anomalies": [],
@@ -2984,44 +2984,44 @@
    "property_type": "Mid-rise",
    "units": 154,
    "market_tier": 1,
-   "balance": 21626078.454178214,
-   "value": 37286342.16237623,
+   "balance": 21626078.454178,
+   "value": 37286342.162376,
    "ltv": 0.58,
-   "dscr": 1.3990008044883384,
-   "debt_yield": 0.08706896551724139,
+   "dscr": 1.399001,
+   "debt_yield": 0.087069,
    "coupon": 0.047,
    "maturity": "2031-12-01",
    "months_to_maturity": 61,
    "occupancy": 0.957,
-   "noi": 1882960.2791999998,
+   "noi": 1882960.2792,
    "cap_rate": 0.0505,
    "rent_growth_yoy": 0.02,
    "rent_growth_nowcast": 0.031,
    "income_return": 0.0505,
-   "appreciation_12m": 0.12276771290519828,
+   "appreciation_12m": 0.122768,
    "risk": {
     "level": "green",
-    "score": 0.02617330425987996,
-    "p_impairment_12m": 0.0002617330425987996,
-    "p_decline_10pct_12m": 0.48014145273358977,
-    "var95_value_change_12m": -0.21766080909944985,
+    "score": 0.026173,
+    "p_impairment_12m": 0.000262,
+    "p_decline_10pct_12m": 0.480141,
+    "var95_value_change_12m": -0.217661,
     "flags": [],
     "loss_thresholds": {
-     "value_decline_to_impairment": 0.42000000000000004,
-     "noi_decline_to_dscr_1x": 0.28520412798065997,
-     "cap_rate_expansion_bps_to_impairment": 365.68965517241384
+     "value_decline_to_impairment": 0.42,
+     "noi_decline_to_dscr_1x": 0.285204,
+     "cap_rate_expansion_bps_to_impairment": 365.689655
     },
     "refinance": {
-     "max_proceeds": 20714812.779620867,
+     "max_proceeds": 20714812.779621,
      "gap": 0.0,
      "binding_constraint": "dscr",
      "feasible": true
     },
     "liquidity": {
-     "time_to_sell_months": 4.0158215930748185,
+     "time_to_sell_months": 4.015822,
      "haircut_base": 0.02,
      "haircut_stressed": 0.084,
-     "realizable_ltv_stressed": 0.6331877729257641
+     "realizable_ltv_stressed": 0.633188
     }
    },
    "anomalies": [],
@@ -3228,11 +3228,11 @@
    "property_type": "Garden",
    "units": 236,
    "market_tier": 1,
-   "balance": 33893358.403106794,
-   "value": 56488930.67184466,
+   "balance": 33893358.403107,
+   "value": 56488930.671845,
    "ltv": 0.6,
-   "dscr": 1.4116805123550384,
-   "debt_yield": 0.08583333333333333,
+   "dscr": 1.411681,
+   "debt_yield": 0.085833,
    "coupon": 0.045,
    "maturity": "2030-07-01",
    "months_to_maturity": 44,
@@ -3242,30 +3242,30 @@
    "rent_growth_yoy": 0.02,
    "rent_growth_nowcast": 0.004,
    "income_return": 0.0515,
-   "appreciation_12m": 0.024912619423103077,
+   "appreciation_12m": 0.024913,
    "risk": {
     "level": "green",
-    "score": 0.001106291737007492,
-    "p_impairment_12m": 1.106291737007492e-05,
-    "p_decline_10pct_12m": 0.36464462518772844,
-    "var95_value_change_12m": -0.17401952041032742,
+    "score": 0.001106,
+    "p_impairment_12m": 1.1e-05,
+    "p_decline_10pct_12m": 0.364645,
+    "var95_value_change_12m": -0.17402,
     "flags": [],
     "loss_thresholds": {
      "value_decline_to_impairment": 0.4,
-     "noi_decline_to_dscr_1x": 0.29162442121429566,
-     "cap_rate_expansion_bps_to_impairment": 343.3333333333333
+     "noi_decline_to_dscr_1x": 0.291624,
+     "cap_rate_expansion_bps_to_impairment": 343.333333
     },
     "refinance": {
-     "max_proceeds": 32004455.032635204,
+     "max_proceeds": 32004455.032635,
      "gap": 0.0,
      "binding_constraint": "dscr",
      "feasible": true
     },
     "liquidity": {
-     "time_to_sell_months": 4.281373364844,
+     "time_to_sell_months": 4.281373,
      "haircut_base": 0.02,
      "haircut_stressed": 0.084,
-     "realizable_ltv_stressed": 0.6550218340611352
+     "realizable_ltv_stressed": 0.655022
     }
    },
    "anomalies": [],
@@ -3472,44 +3472,44 @@
    "property_type": "Mid-rise",
    "units": 122,
    "market_tier": 2,
-   "balance": 14577067.183924533,
-   "value": 26503758.516226422,
+   "balance": 14577067.183925,
+   "value": 26503758.516226,
    "ltv": 0.55,
-   "dscr": 1.5130768281045865,
-   "debt_yield": 0.09636363636363635,
+   "dscr": 1.513077,
+   "debt_yield": 0.096364,
    "coupon": 0.049,
    "maturity": "2031-08-01",
    "months_to_maturity": 57,
    "occupancy": 0.962,
-   "noi": 1404699.2013600003,
+   "noi": 1404699.20136,
    "cap_rate": 0.053,
    "rent_growth_yoy": 0.02,
    "rent_growth_nowcast": 0.022,
    "income_return": 0.053,
-   "appreciation_12m": -0.04378663853833775,
+   "appreciation_12m": -0.043787,
    "risk": {
     "level": "green",
-    "score": 1.4119922631117277e-05,
-    "p_impairment_12m": 1.4119922631117277e-07,
-    "p_decline_10pct_12m": 0.3535885716319267,
-    "var95_value_change_12m": -0.17041970831867537,
+    "score": 1.4e-05,
+    "p_impairment_12m": 0.0,
+    "p_decline_10pct_12m": 0.353589,
+    "var95_value_change_12m": -0.17042,
     "flags": [],
     "loss_thresholds": {
-     "value_decline_to_impairment": 0.44999999999999996,
-     "noi_decline_to_dscr_1x": 0.33909502714895967,
-     "cap_rate_expansion_bps_to_impairment": 433.63636363636346
+     "value_decline_to_impairment": 0.45,
+     "noi_decline_to_dscr_1x": 0.339095,
+     "cap_rate_expansion_bps_to_impairment": 433.636364
     },
     "refinance": {
-     "max_proceeds": 15453369.51038503,
+     "max_proceeds": 15453369.510385,
      "gap": 0.0,
      "binding_constraint": "dscr",
      "feasible": true
     },
     "liquidity": {
-     "time_to_sell_months": 5.816899174201917,
+     "time_to_sell_months": 5.816899,
      "haircut_base": 0.04,
      "haircut_stressed": 0.168,
-     "realizable_ltv_stressed": 0.6610576923076924
+     "realizable_ltv_stressed": 0.661058
     }
    },
    "anomalies": [],
@@ -3725,121 +3725,121 @@
     "refinance_rate": 0.081
    },
    "summary": {
-    "avg_value_change": -0.10096572382025464,
+    "avg_value_change": -0.100966,
     "loans_impaired": 0,
     "loans_dscr_below_1": 0,
-    "refi_shortfall_total": 83100101.06078789,
+    "refi_shortfall_total": 83100101.060788,
     "estimated_loss": 0.0
    },
    "assets": {
     "A-01": {
-     "value_change": -0.09999999999999987,
-     "ltv": 0.8777777777777777,
-     "dscr": 1.120564432454866,
+     "value_change": -0.1,
+     "ltv": 0.877778,
+     "dscr": 1.120564,
      "impaired": false,
-     "refi_gap": 15884376.030616742,
+     "refi_gap": 15884376.030617,
      "realizable_loss": 0.0
     },
     "A-02": {
-     "value_change": -0.10526315789473695,
-     "ltv": 0.8605882352941178,
-     "dscr": 1.12260620735197,
+     "value_change": -0.105263,
+     "ltv": 0.860588,
+     "dscr": 1.122606,
      "impaired": false,
-     "refi_gap": 17458683.40178697,
+     "refi_gap": 17458683.401787,
      "realizable_loss": 0.0
     },
     "A-03": {
-     "value_change": -0.09677419354838712,
-     "ltv": 0.8192857142857143,
-     "dscr": 1.4014014014014013,
+     "value_change": -0.096774,
+     "ltv": 0.819286,
+     "dscr": 1.401401,
      "impaired": false,
      "refi_gap": 0.0,
      "realizable_loss": 0.0
     },
     "A-04": {
-     "value_change": -0.10810810810810811,
-     "ltv": 0.8521212121212121,
-     "dscr": 1.1327231121281465,
+     "value_change": -0.108108,
+     "ltv": 0.852121,
+     "dscr": 1.132723,
      "impaired": false,
-     "refi_gap": 19230266.62836681,
+     "refi_gap": 19230266.628367,
      "realizable_loss": 0.0
     },
     "A-05": {
-     "value_change": -0.10256410256410264,
-     "ltv": 0.7131428571428572,
-     "dscr": 1.691365979381443,
+     "value_change": -0.102564,
+     "ltv": 0.713143,
+     "dscr": 1.691366,
      "impaired": false,
      "refi_gap": 0.0,
      "realizable_loss": 0.0
     },
     "A-06": {
-     "value_change": -0.08823529411764708,
-     "ltv": 0.7458064516129033,
-     "dscr": 1.5995872033023737,
+     "value_change": -0.088235,
+     "ltv": 0.745806,
+     "dscr": 1.599587,
      "impaired": false,
-     "refi_gap": 2017134.273981914,
+     "refi_gap": 2017134.273982,
      "realizable_loss": 0.0
     },
     "A-07": {
-     "value_change": -0.10434782608695647,
-     "ltv": 0.6699029126213591,
-     "dscr": 1.9074074074074074,
+     "value_change": -0.104348,
+     "ltv": 0.669903,
+     "dscr": 1.907407,
      "impaired": false,
      "refi_gap": 0.0,
      "realizable_loss": 0.0
     },
     "A-08": {
-     "value_change": -0.10619469026548678,
-     "ltv": 0.6489108910891089,
-     "dscr": 1.852531181217902,
+     "value_change": -0.106195,
+     "ltv": 0.648911,
+     "dscr": 1.852531,
      "impaired": false,
      "refi_gap": 0.0,
      "realizable_loss": 0.0
     },
     "A-09": {
-     "value_change": -0.09090909090909105,
+     "value_change": -0.090909,
      "ltv": 0.781,
-     "dscr": 1.352112676056338,
+     "dscr": 1.352113,
      "impaired": false,
-     "refi_gap": 5597186.163124271,
+     "refi_gap": 5597186.163124,
      "realizable_loss": 0.0
     },
     "A-10": {
-     "value_change": -0.10084033613445376,
-     "ltv": 0.8007476635514018,
-     "dscr": 1.3268849206349205,
+     "value_change": -0.10084,
+     "ltv": 0.800748,
+     "dscr": 1.326885,
      "impaired": false,
-     "refi_gap": 14181543.26526231,
+     "refi_gap": 14181543.265262,
      "realizable_loss": 0.0
     },
     "A-11": {
-     "value_change": -0.10169491525423724,
-     "ltv": 0.6122641509433963,
-     "dscr": 1.9666048237476805,
+     "value_change": -0.101695,
+     "ltv": 0.612264,
+     "dscr": 1.966605,
      "impaired": false,
      "refi_gap": 0.0,
      "realizable_loss": 0.0
     },
     "A-12": {
-     "value_change": -0.09523809523809523,
-     "ltv": 0.7294736842105263,
-     "dscr": 1.660839160839161,
+     "value_change": -0.095238,
+     "ltv": 0.729474,
+     "dscr": 1.660839,
      "impaired": false,
-     "refi_gap": 6730011.74596937,
+     "refi_gap": 6730011.745969,
      "realizable_loss": 0.0
     },
     "A-13": {
-     "value_change": -0.08571428571428574,
-     "ltv": 0.7546875000000001,
-     "dscr": 1.5458937198067635,
+     "value_change": -0.085714,
+     "ltv": 0.754688,
+     "dscr": 1.545894,
      "impaired": false,
-     "refi_gap": 2000899.551679507,
+     "refi_gap": 2000899.55168,
      "realizable_loss": 0.0
     },
     "A-14": {
-     "value_change": -0.10344827586206895,
-     "ltv": 0.6915384615384615,
-     "dscr": 1.765704584040747,
+     "value_change": -0.103448,
+     "ltv": 0.691538,
+     "dscr": 1.765705,
      "impaired": false,
      "refi_gap": 0.0,
      "realizable_loss": 0.0
@@ -3857,124 +3857,124 @@
     "occupancy_shock_pts": 0,
     "opex_shock": 0,
     "cap_rate_shift_bps": 30.0,
-    "refinance_rate": 0.06999999999999999
+    "refinance_rate": 0.07
    },
    "summary": {
-    "avg_value_change": -0.053176372460497626,
+    "avg_value_change": -0.053176,
     "loans_impaired": 0,
     "loans_dscr_below_1": 0,
-    "refi_shortfall_total": 64091102.88883106,
+    "refi_shortfall_total": 64091102.888831,
     "estimated_loss": 0.0
    },
    "assets": {
     "A-01": {
-     "value_change": -0.052631578947368474,
-     "ltv": 0.8338888888888889,
-     "dscr": 1.120564432454866,
+     "value_change": -0.052632,
+     "ltv": 0.833889,
+     "dscr": 1.120564,
      "impaired": false,
-     "refi_gap": 13004759.167654458,
+     "refi_gap": 13004759.167654,
      "realizable_loss": 0.0
     },
     "A-02": {
-     "value_change": -0.05555555555555558,
-     "ltv": 0.815294117647059,
-     "dscr": 1.12260620735197,
+     "value_change": -0.055556,
+     "ltv": 0.815294,
+     "dscr": 1.122606,
      "impaired": false,
-     "refi_gap": 14536778.011978693,
+     "refi_gap": 14536778.011979,
      "realizable_loss": 0.0
     },
     "A-03": {
-     "value_change": -0.05084745762711873,
-     "ltv": 0.7796428571428572,
-     "dscr": 1.4014014014014013,
+     "value_change": -0.050847,
+     "ltv": 0.779643,
+     "dscr": 1.401401,
      "impaired": false,
      "refi_gap": 0.0,
      "realizable_loss": 0.0
     },
     "A-04": {
-     "value_change": -0.05714285714285727,
-     "ltv": 0.8060606060606061,
-     "dscr": 1.1327231121281465,
+     "value_change": -0.057143,
+     "ltv": 0.806061,
+     "dscr": 1.132723,
      "impaired": false,
-     "refi_gap": 16141287.528401032,
+     "refi_gap": 16141287.528401,
      "realizable_loss": 0.0
     },
     "A-05": {
-     "value_change": -0.05405405405405406,
-     "ltv": 0.6765714285714286,
-     "dscr": 1.691365979381443,
+     "value_change": -0.054054,
+     "ltv": 0.676571,
+     "dscr": 1.691366,
      "impaired": false,
      "refi_gap": 0.0,
      "realizable_loss": 0.0
     },
     "A-06": {
-     "value_change": -0.0461538461538461,
-     "ltv": 0.7129032258064516,
-     "dscr": 1.5995872033023737,
+     "value_change": -0.046154,
+     "ltv": 0.712903,
+     "dscr": 1.599587,
      "impaired": false,
-     "refi_gap": 970972.3457297198,
+     "refi_gap": 970972.34573,
      "realizable_loss": 0.0
     },
     "A-07": {
-     "value_change": -0.05504587155963303,
-     "ltv": 0.6349514563106796,
-     "dscr": 1.9074074074074074,
+     "value_change": -0.055046,
+     "ltv": 0.634951,
+     "dscr": 1.907407,
      "impaired": false,
      "refi_gap": 0.0,
      "realizable_loss": 0.0
     },
     "A-08": {
-     "value_change": -0.05607476635514019,
-     "ltv": 0.6144554455445544,
-     "dscr": 1.852531181217902,
+     "value_change": -0.056075,
+     "ltv": 0.614455,
+     "dscr": 1.852531,
      "impaired": false,
      "refi_gap": 0.0,
      "realizable_loss": 0.0
     },
     "A-09": {
-     "value_change": -0.04761904761904767,
+     "value_change": -0.047619,
      "ltv": 0.7455,
-     "dscr": 1.352112676056338,
+     "dscr": 1.352113,
      "impaired": false,
-     "refi_gap": 3581095.673775859,
+     "refi_gap": 3581095.673776,
      "realizable_loss": 0.0
     },
     "A-10": {
-     "value_change": -0.053097345132743445,
-     "ltv": 0.760373831775701,
-     "dscr": 1.3268849206349205,
+     "value_change": -0.053097,
+     "ltv": 0.760374,
+     "dscr": 1.326885,
      "impaired": false,
-     "refi_gap": 10934922.573406827,
+     "refi_gap": 10934922.573407,
      "realizable_loss": 0.0
     },
     "A-11": {
-     "value_change": -0.0535714285714286,
-     "ltv": 0.5811320754716982,
-     "dscr": 1.9666048237476805,
+     "value_change": -0.053571,
+     "ltv": 0.581132,
+     "dscr": 1.966605,
      "impaired": false,
      "refi_gap": 0.0,
      "realizable_loss": 0.0
     },
     "A-12": {
-     "value_change": -0.050000000000000044,
-     "ltv": 0.6947368421052632,
-     "dscr": 1.660839160839161,
+     "value_change": -0.05,
+     "ltv": 0.694737,
+     "dscr": 1.660839,
      "impaired": false,
-     "refi_gap": 4066773.5804994665,
+     "refi_gap": 4066773.580499,
      "realizable_loss": 0.0
     },
     "A-13": {
-     "value_change": -0.04477611940298509,
-     "ltv": 0.72234375,
-     "dscr": 1.5458937198067635,
+     "value_change": -0.044776,
+     "ltv": 0.722344,
+     "dscr": 1.545894,
      "impaired": false,
-     "refi_gap": 854514.0073850006,
+     "refi_gap": 854514.007385,
      "realizable_loss": 0.0
     },
     "A-14": {
-     "value_change": -0.054545454545454564,
-     "ltv": 0.6557692307692308,
-     "dscr": 1.765704584040747,
+     "value_change": -0.054545,
+     "ltv": 0.655769,
+     "dscr": 1.765705,
      "impaired": false,
      "refi_gap": 0.0,
      "realizable_loss": 0.0
@@ -3995,121 +3995,121 @@
     "refinance_rate": 0.061
    },
    "summary": {
-    "avg_value_change": -0.19843670039752265,
+    "avg_value_change": -0.198437,
     "loans_impaired": 1,
     "loans_dscr_below_1": 3,
-    "refi_shortfall_total": 87890982.24847771,
-    "estimated_loss": 1585283.3334912024
+    "refi_shortfall_total": 87890982.248478,
+    "estimated_loss": 1585283.333491
    },
    "assets": {
     "A-01": {
-     "value_change": -0.21012475512939466,
-     "ltv": 1.000157942827307,
-     "dscr": 0.8851061054785782,
+     "value_change": -0.210125,
+     "ltv": 1.000158,
+     "dscr": 0.885106,
      "impaired": true,
-     "refi_gap": 16760019.495574865,
-     "realizable_loss": 1479079.894655995
+     "refi_gap": 16760019.495575,
+     "realizable_loss": 1479079.894656
     },
     "A-02": {
-     "value_change": -0.19020896404046395,
-     "ltv": 0.9508625877632902,
-     "dscr": 0.9090764436261575,
+     "value_change": -0.190209,
+     "ltv": 0.950863,
+     "dscr": 0.909076,
      "impaired": false,
-     "refi_gap": 17719918.762918055,
+     "refi_gap": 17719918.762918,
      "realizable_loss": 0.0
     },
     "A-03": {
-     "value_change": -0.2076045002874275,
-     "ltv": 0.9338770857083639,
-     "dscr": 1.110464163761363,
+     "value_change": -0.207605,
+     "ltv": 0.933877,
+     "dscr": 1.110464,
      "impaired": false,
      "refi_gap": 0.0,
-     "realizable_loss": 106203.43883520737
+     "realizable_loss": 106203.438835
     },
     "A-04": {
-     "value_change": -0.2052152571837612,
-     "ltv": 0.9562337562080235,
-     "dscr": 0.9002710473547786,
+     "value_change": -0.205215,
+     "ltv": 0.956234,
+     "dscr": 0.900271,
      "impaired": false,
-     "refi_gap": 20006102.546283837,
+     "refi_gap": 20006102.546284,
      "realizable_loss": 0.0
     },
     "A-05": {
-     "value_change": -0.18546044306617449,
-     "ltv": 0.7857199746187338,
-     "dscr": 1.3776844954583065,
+     "value_change": -0.18546,
+     "ltv": 0.78572,
+     "dscr": 1.377684,
      "impaired": false,
      "refi_gap": 0.0,
      "realizable_loss": 0.0
     },
     "A-06": {
-     "value_change": -0.21527085410435376,
-     "ltv": 0.8665410269984121,
-     "dscr": 1.255242699833077,
+     "value_change": -0.215271,
+     "ltv": 0.866541,
+     "dscr": 1.255243,
      "impaired": false,
-     "refi_gap": 2393286.465396395,
+     "refi_gap": 2393286.465396,
      "realizable_loss": 0.0
     },
     "A-07": {
-     "value_change": -0.18263009845288336,
-     "ltv": 0.734061774068657,
-     "dscr": 1.5590574048028336,
+     "value_change": -0.18263,
+     "ltv": 0.734062,
+     "dscr": 1.559057,
      "impaired": false,
      "refi_gap": 0.0,
      "realizable_loss": 0.0
     },
     "A-08": {
-     "value_change": -0.18185301288749556,
-     "ltv": 0.708919068500149,
-     "dscr": 1.5156428044453953,
+     "value_change": -0.181853,
+     "ltv": 0.708919,
+     "dscr": 1.515643,
      "impaired": false,
      "refi_gap": 0.0,
      "realizable_loss": 0.0
     },
     "A-09": {
-     "value_change": -0.2135220913722543,
-     "ltv": 0.9027589868847236,
-     "dscr": 1.0634067496938535,
+     "value_change": -0.213522,
+     "ltv": 0.902759,
+     "dscr": 1.063407,
      "impaired": false,
-     "refi_gap": 6284076.449060444,
+     "refi_gap": 6284076.44906,
      "realizable_loss": 0.0
     },
     "A-10": {
-     "value_change": -0.205103591712663,
-     "ltv": 0.9057784039448525,
-     "dscr": 1.0547360576233267,
+     "value_change": -0.205104,
+     "ltv": 0.905778,
+     "dscr": 1.054736,
      "impaired": false,
-     "refi_gap": 14993064.986153249,
+     "refi_gap": 14993064.986153,
      "realizable_loss": 0.0
     },
     "A-11": {
-     "value_change": -0.1845026251805918,
-     "ltv": 0.6744350343516403,
-     "dscr": 1.6037610710734183,
+     "value_change": -0.184503,
+     "ltv": 0.674435,
+     "dscr": 1.603761,
      "impaired": false,
      "refi_gap": 0.0,
      "realizable_loss": 0.0
     },
     "A-12": {
-     "value_change": -0.20038850038850076,
-     "ltv": 0.825400835681664,
-     "dscr": 1.3280260920121056,
+     "value_change": -0.200389,
+     "ltv": 0.825401,
+     "dscr": 1.328026,
      "impaired": false,
-     "refi_gap": 7260352.210118458,
+     "refi_gap": 7260352.210118,
      "realizable_loss": 0.0
     },
     "A-13": {
-     "value_change": -0.220213219616205,
-     "ltv": 0.8848572678551901,
-     "dscr": 1.2054674865836446,
+     "value_change": -0.220213,
+     "ltv": 0.884857,
+     "dscr": 1.205467,
      "impaired": false,
-     "refi_gap": 2474161.3329724073,
+     "refi_gap": 2474161.332972,
      "realizable_loss": 0.0
     },
     "A-14": {
-     "value_change": -0.18528464972344294,
-     "ltv": 0.7610019865092016,
-     "dscr": 1.43854662867168,
+     "value_change": -0.185285,
+     "ltv": 0.761002,
+     "dscr": 1.438547,
      "impaired": false,
      "refi_gap": 0.0,
      "realizable_loss": 0.0
@@ -4130,121 +4130,121 @@
     "refinance_rate": 0.082
    },
    "summary": {
-    "avg_value_change": -0.24909261517129033,
+    "avg_value_change": -0.249093,
     "loans_impaired": 3,
     "loans_dscr_below_1": 3,
-    "refi_shortfall_total": 112049235.64699306,
-    "estimated_loss": 14201917.153286306
+    "refi_shortfall_total": 112049235.646993,
+    "estimated_loss": 14201917.153286
    },
    "assets": {
     "A-01": {
-     "value_change": -0.2590106673687923,
-     "ltv": 1.0661422036870065,
-     "dscr": 0.9302729741479158,
+     "value_change": -0.259011,
+     "ltv": 1.066142,
+     "dscr": 0.930273,
      "impaired": true,
-     "refi_gap": 20394173.35829754,
-     "realizable_loss": 4289157.698663369
+     "refi_gap": 20394173.358298,
+     "realizable_loss": 4289157.698663
     },
     "A-02": {
-     "value_change": -0.2451026135754394,
-     "ltv": 1.0200061807697738,
-     "dscr": 0.955461142844205,
+     "value_change": -0.245103,
+     "ltv": 1.020006,
+     "dscr": 0.955461,
      "impaired": true,
-     "refi_gap": 21500540.68697536,
-     "realizable_loss": 2739528.84522257
+     "refi_gap": 21500540.686975,
+     "realizable_loss": 2739528.845223
     },
     "A-03": {
-     "value_change": -0.2531037595466866,
-     "ltv": 0.9907668025626587,
-     "dscr": 1.1681935692775798,
+     "value_change": -0.253104,
+     "ltv": 0.990767,
+     "dscr": 1.168194,
      "impaired": false,
      "refi_gap": 0.0,
-     "realizable_loss": 1530069.5056765936
+     "realizable_loss": 1530069.505677
     },
     "A-04": {
-     "value_change": -0.2602858348063637,
-     "ltv": 1.027423883117141,
-     "dscr": 0.9479174656943623,
+     "value_change": -0.260286,
+     "ltv": 1.027424,
+     "dscr": 0.947917,
      "impaired": true,
-     "refi_gap": 23888073.746772733,
-     "realizable_loss": 3259421.1285686493
+     "refi_gap": 23888073.746773,
+     "realizable_loss": 3259421.128569
     },
     "A-05": {
-     "value_change": -0.23866609816063244,
-     "ltv": 0.8406298451359815,
-     "dscr": 1.447123073728179,
+     "value_change": -0.238666,
+     "ltv": 0.84063,
+     "dscr": 1.447123,
      "impaired": false,
      "refi_gap": 0.0,
      "realizable_loss": 0.0
     },
     "A-06": {
-     "value_change": -0.25501728391467937,
-     "ltv": 0.912772854078029,
-     "dscr": 1.3165974213582166,
+     "value_change": -0.255017,
+     "ltv": 0.912773,
+     "dscr": 1.316597,
      "impaired": false,
-     "refi_gap": 3720396.198410793,
-     "realizable_loss": 25284.863216729835
+     "refi_gap": 3720396.198411,
+     "realizable_loss": 25284.863217
     },
     "A-07": {
-     "value_change": -0.23740961006838357,
-     "ltv": 0.7867919762977915,
-     "dscr": 1.6381571339271759,
+     "value_change": -0.23741,
+     "ltv": 0.786792,
+     "dscr": 1.638157,
      "impaired": false,
      "refi_gap": 0.0,
      "realizable_loss": 0.0
     },
     "A-08": {
-     "value_change": -0.23867192799134718,
-     "ltv": 0.7618266307582154,
-     "dscr": 1.5919185658288046,
+     "value_change": -0.238672,
+     "ltv": 0.761827,
+     "dscr": 1.591919,
      "impaired": false,
      "refi_gap": 0.0,
      "realizable_loss": 0.0
     },
     "A-09": {
-     "value_change": -0.2545912513682099,
-     "ltv": 0.9524975408501933,
-     "dscr": 1.117063251470739,
+     "value_change": -0.254591,
+     "ltv": 0.952498,
+     "dscr": 1.117063,
      "impaired": false,
-     "refi_gap": 8825426.204551036,
-     "realizable_loss": 1025286.4993589297
+     "refi_gap": 8825426.204551,
+     "realizable_loss": 1025286.499359
     },
     "A-10": {
-     "value_change": -0.255335293176546,
-     "ltv": 0.9668781042025382,
-     "dscr": 1.1081320042015683,
+     "value_change": -0.255335,
+     "ltv": 0.966878,
+     "dscr": 1.108132,
      "impaired": false,
-     "refi_gap": 19125563.34600664,
-     "realizable_loss": 509998.21324437857
+     "refi_gap": 19125563.346007,
+     "realizable_loss": 509998.213244
     },
     "A-11": {
-     "value_change": -0.2373457471363758,
-     "ltv": 0.721165584450428,
-     "dscr": 1.6837821167118974,
+     "value_change": -0.237346,
+     "ltv": 0.721166,
+     "dscr": 1.683782,
      "impaired": false,
      "refi_gap": 0.0,
      "realizable_loss": 0.0
     },
     "A-12": {
-     "value_change": -0.246130719674027,
-     "ltv": 0.8754833460180471,
-     "dscr": 1.3948338957080213,
+     "value_change": -0.246131,
+     "ltv": 0.875483,
+     "dscr": 1.394834,
      "impaired": false,
-     "refi_gap": 10676325.049093157,
+     "refi_gap": 10676325.049093,
      "realizable_loss": 0.0
     },
     "A-13": {
-     "value_change": -0.2574610231517189,
-     "ltv": 0.9292441494838647,
-     "dscr": 1.2644685475314932,
+     "value_change": -0.257461,
+     "ltv": 0.929244,
+     "dscr": 1.264469,
      "impaired": false,
-     "refi_gap": 3918737.056885792,
-     "realizable_loss": 823170.3993350863
+     "refi_gap": 3918737.056886,
+     "realizable_loss": 823170.399335
     },
     "A-14": {
-     "value_change": -0.23937499382463556,
-     "ltv": 0.815119138821814,
-     "dscr": 1.5109189426573453,
+     "value_change": -0.239375,
+     "ltv": 0.815119,
+     "dscr": 1.510919,
      "impaired": false,
      "refi_gap": 0.0,
      "realizable_loss": 0.0
@@ -4265,124 +4265,124 @@
     "refinance_rate": 0.086
    },
    "summary": {
-    "avg_value_change": -0.42806059919721823,
+    "avg_value_change": -0.428061,
     "loans_impaired": 12,
     "loans_dscr_below_1": 7,
-    "refi_shortfall_total": 147512703.8248584,
-    "estimated_loss": 101507405.3918325
+    "refi_shortfall_total": 147512703.824858,
+    "estimated_loss": 101507405.391833
    },
    "assets": {
     "A-01": {
-     "value_change": -0.44584845793879635,
-     "ltv": 1.4256028180694802,
-     "dscr": 0.7129569538865869,
+     "value_change": -0.445848,
+     "ltv": 1.425603,
+     "dscr": 0.712957,
      "impaired": true,
-     "refi_gap": 25855500.51996392,
-     "realizable_loss": 14801708.385243248
+     "refi_gap": 25855500.519964,
+     "realizable_loss": 14801708.385243
     },
     "A-02": {
-     "value_change": -0.4182956609018106,
-     "ltv": 1.3236965039554693,
-     "dscr": 0.7554601806469992,
+     "value_change": -0.418296,
+     "ltv": 1.323697,
+     "dscr": 0.75546,
      "impaired": true,
-     "refi_gap": 26673484.87884772,
-     "realizable_loss": 13365506.515262078
+     "refi_gap": 26673484.878848,
+     "realizable_loss": 13365506.515262
     },
     "A-03": {
-     "value_change": -0.4387403506610822,
-     "ltv": 1.3184628555992086,
-     "dscr": 0.898914353295564,
+     "value_change": -0.43874,
+     "ltv": 1.318463,
+     "dscr": 0.898914,
      "impaired": true,
      "refi_gap": 0.0,
-     "realizable_loss": 7033441.490187839
+     "realizable_loss": 7033441.490188
     },
     "A-04": {
-     "value_change": -0.443549371545948,
-     "ltv": 1.3657995177603715,
-     "dscr": 0.7321718795448054,
+     "value_change": -0.443549,
+     "ltv": 1.3658,
+     "dscr": 0.732172,
      "impaired": true,
-     "refi_gap": 29662838.348957255,
-     "realizable_loss": 15358422.44584703
+     "refi_gap": 29662838.348957,
+     "realizable_loss": 15358422.445847
     },
     "A-05": {
-     "value_change": -0.4087551031500227,
-     "ltv": 1.0824617741476996,
-     "dscr": 1.1523942093886477,
+     "value_change": -0.408755,
+     "ltv": 1.082462,
+     "dscr": 1.152394,
      "impaired": true,
      "refi_gap": 0.0,
-     "realizable_loss": 3924303.313339494
+     "realizable_loss": 3924303.313339
     },
     "A-06": {
-     "value_change": -0.44594435740397875,
-     "ltv": 1.227313554309939,
-     "dscr": 1.0006164855965298,
+     "value_change": -0.445944,
+     "ltv": 1.227314,
+     "dscr": 1.000616,
      "impaired": true,
-     "refi_gap": 5733872.2580561405,
-     "realizable_loss": 3650503.853607444
+     "refi_gap": 5733872.258056,
+     "realizable_loss": 3650503.853607
     },
     "A-07": {
-     "value_change": -0.40558522143034437,
-     "ltv": 1.0093961685202109,
-     "dscr": 1.309914049070167,
+     "value_change": -0.405585,
+     "ltv": 1.009396,
+     "dscr": 1.309914,
      "impaired": true,
      "refi_gap": 0.0,
-     "realizable_loss": 3189767.5927357897
+     "realizable_loss": 3189767.592736
     },
     "A-08": {
-     "value_change": -0.40613598406701856,
-     "ltv": 0.9766545613793409,
-     "dscr": 1.2744330495993919,
+     "value_change": -0.406136,
+     "ltv": 0.976655,
+     "dscr": 1.274433,
      "impaired": false,
      "refi_gap": 0.0,
-     "realizable_loss": 1378503.8044758178
+     "realizable_loss": 1378503.804476
     },
     "A-09": {
-     "value_change": -0.44441611272421755,
-     "ltv": 1.2779348290343202,
-     "dscr": 0.85137361881134,
+     "value_change": -0.444416,
+     "ltv": 1.277935,
+     "dscr": 0.851374,
      "impaired": true,
-     "refi_gap": 12689989.862840172,
-     "realizable_loss": 8215504.8669768255
+     "refi_gap": 12689989.86284,
+     "realizable_loss": 8215504.866977
     },
     "A-10": {
-     "value_change": -0.4386668838850615,
-     "ltv": 1.2826608288910804,
-     "dscr": 0.8562000655026962,
+     "value_change": -0.438667,
+     "ltv": 1.282661,
+     "dscr": 0.8562,
      "impaired": true,
-     "refi_gap": 25176895.80582119,
-     "realizable_loss": 12291448.646853596
+     "refi_gap": 25176895.805821,
+     "realizable_loss": 12291448.646854
     },
     "A-11": {
-     "value_change": -0.40674176067618706,
-     "ltv": 0.927083626561819,
-     "dscr": 1.3428108570965707,
+     "value_change": -0.406742,
+     "ltv": 0.927084,
+     "dscr": 1.342811,
      "impaired": false,
      "refi_gap": 0.0,
-     "realizable_loss": 1545369.7880358938
+     "realizable_loss": 1545369.788036
     },
     "A-12": {
-     "value_change": -0.4266885422270037,
-     "ltv": 1.1512067150441083,
-     "dscr": 1.085817154873099,
+     "value_change": -0.426689,
+     "ltv": 1.151207,
+     "dscr": 1.085817,
      "impaired": true,
-     "refi_gap": 15558942.41984705,
-     "realizable_loss": 8462115.724030137
+     "refi_gap": 15558942.419847,
+     "realizable_loss": 8462115.72403
     },
     "A-13": {
-     "value_change": -0.45201610992655783,
-     "ltv": 1.2591611040016604,
-     "dscr": 0.953015460997291,
+     "value_change": -0.452016,
+     "ltv": 1.259161,
+     "dscr": 0.953015,
      "impaired": true,
-     "refi_gap": 6161179.730524962,
-     "realizable_loss": 4962317.998176001
+     "refi_gap": 6161179.730525,
+     "realizable_loss": 4962317.998176
     },
     "A-14": {
-     "value_change": -0.40927249660601983,
-     "ltv": 1.0495532990047642,
-     "dscr": 1.203519531532727,
+     "value_change": -0.409272,
+     "ltv": 1.049553,
+     "dscr": 1.20352,
      "impaired": true,
      "refi_gap": 0.0,
-     "realizable_loss": 3328490.9670613
+     "realizable_loss": 3328490.967061
     }
    }
   }
