@@ -1,4 +1,4 @@
-# Collateral Watch (public beta interface)
+# Benoit (public beta interface)
 
 Working title. A static, dependency-free web interface for lenders to review collateral risk
 across a multifamily loan portfolio: flagged assets, loss thresholds, stress scenarios, anomalies
