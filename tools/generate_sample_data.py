@@ -124,6 +124,26 @@ def history(occ_end, note):
     return dates, idx, occ
 
 
+def _round_floats(obj, ndigits=6):
+    """round every float in a nested structure before serializing.
+
+    math.erf/exp/log can differ in their last bit across machines (different
+    libm builds or cpu code paths), and json.dumps prints the full repr of a
+    float. without this, that sub-ulp noise becomes a visible byte difference
+    in the committed sample data, which is what made the ci reproducibility
+    check ("generate_sample_data.py | diff ... assessment.json") flaky across
+    environments even though the formulas themselves are deterministic.
+    """
+    if isinstance(obj, float):
+        v = round(obj, ndigits)
+        return v + 0.0  # normalize -0.0 to 0.0
+    if isinstance(obj, dict):
+        return {k: _round_floats(v, ndigits) for k, v in obj.items()}
+    if isinstance(obj, (list, tuple)):
+        return [_round_floats(v, ndigits) for v in obj]
+    return obj
+
+
 def main():
     assets = []
     for (name, market, ptype, units, rent, occ, opex, cap, ltv, coupon, io, mtm, tier, note) in SPECS:
@@ -275,7 +295,7 @@ def main():
         "assets": sorted(assets, key=lambda a: -a["risk"]["score"]),
         "scenarios": scenarios,
     }
-    print(json.dumps(out, indent=1))
+    print(json.dumps(_round_floats(out), indent=1))
 
 
 if __name__ == "__main__":
