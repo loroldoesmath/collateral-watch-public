@@ -24,7 +24,7 @@ async function route() {
   document.querySelectorAll("header.site nav a").forEach((a) => {
     if (a.dataset.route === name) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current");
   });
-  document.title = view === home ? "Benoit" : `${view.title} | Benoit`;
+  document.title = view === home ? "Collateral Watch Engine" : `${view.title} | Collateral Watch Engine`;
   main.innerHTML = `<div class="wrap"><p class="status" role="status">Loading</p></div>`;
   try {
     await view.render(main);
