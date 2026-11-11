@@ -1,4 +1,4 @@
-/* benoit: black, blue and tan. borders carry structure, not shadows. */
+/* collateral watch engine: black, blue and tan. borders carry structure, not shadows. */
 
 @font-face {
   font-family: "Onest";
@@ -78,6 +78,7 @@ h3 { font-weight: 500; font-size: 1.0625rem; line-height: 1.3; }
 
 .figure { border: 1px solid var(--line); padding: 20px 24px 14px; }
 .figure header { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; flex-wrap: wrap; margin-bottom: 8px; }
+.figure-title { font-weight: 500; font-size: 1.0625rem; line-height: 1.3; letter-spacing: normal; }
 .legend { display: flex; gap: 20px; flex-wrap: wrap; color: var(--muted); font-size: 0.8125rem; }
 .legend i { display: inline-block; width: 18px; height: 0; border-top: 2px solid; vertical-align: middle; margin-right: 8px; }
 .legend .l-fan { border-color: var(--blue); }
