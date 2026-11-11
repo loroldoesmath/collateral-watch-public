@@ -1,6 +1,15 @@
 import { loadAssessment } from "../api.js";
 import { esc, pct, shortDate, signedPct } from "../format.js";
 
+// translate a robust z-score into words plus an honest "how many times normal" figure, so a
+// reader doesn't need to know what a z-score is to tell how unusual a move was.
+function unusualness(z) {
+  const a = Math.abs(z);
+  const label = a >= 10 ? "Extreme move" : a >= 5 ? "Highly unusual" : "Unusual move";
+  const cls = a >= 10 ? "bad" : a >= 5 ? "warn" : "";
+  return { label, cls, multiple: a.toFixed(1) };
+}
+
 const SOURCES = [
   ["News and local announcements", "Employer news, supply deliveries, concessions", "Reads headlines and articles as language to score local conditions"],
   ["Moving and migration demand", "Relative demand for moving between markets", "Used as an indicator of in-migration and household formation"],
@@ -26,15 +35,15 @@ export const signals = {
       <div class="notice" role="note">${esc(d.meta.data_notice)} Public-data sources are not connected in the sample.</div>
 
       <section class="block" aria-labelledby="an"><h2 id="an">Anomalies</h2>
-        <p class="muted small">Recent changes in occupancy or valuation that are both statistically unusual and large enough to matter.</p>
+        <p class="muted small">Recent changes in occupancy or valuation that are both statistically unusual and large enough to matter. Each move is compared with that asset's own typical month-to-month swings; a flagged move is at least three times larger than normal for that metric.</p>
         <div class="table-wrap"><table>
           <caption>${anomalies.length} anomalies in the most recent months</caption>
-          <thead><tr><th>Asset</th><th>Metric</th><th>Month</th><th class="r">Observed</th><th class="r">Expected</th><th class="r">Deviation</th></tr></thead>
-          <tbody>${anomalies.map((x) => `<tr><td>${esc(x.asset.name)}<span class="sub">${esc(x.asset.market)}</span></td>
+          <thead><tr><th>Asset</th><th>Metric</th><th>Month</th><th class="r">Observed</th><th class="r">Expected</th><th>How unusual</th></tr></thead>
+          <tbody>${anomalies.map((x) => { const u = unusualness(x.z); return `<tr><td>${esc(x.asset.name)}<span class="sub">${esc(x.asset.market)}</span></td>
             <td>${x.metric === "occupancy" ? "Occupancy" : "Valuation index"}</td><td>${esc(shortDate(x.date))}</td>
             <td class="r num ${x.direction === "down" ? "bad" : ""}">${x.metric === "occupancy" ? pct(x.observed, 1) : x.observed.toFixed(1)}</td>
             <td class="r num">${x.metric === "occupancy" ? pct(x.expected, 1) : x.expected.toFixed(1)}</td>
-            <td class="r num">${x.z.toFixed(1)} robust deviations</td></tr>`).join("") || `<tr><td colspan="6" class="muted">No anomalies in the most recent months.</td></tr>`}</tbody>
+            <td class="wrap-ok ${u.cls}">${u.label} <span class="muted small">(${u.multiple}&times; a typical month's move)</span></td></tr>`; }).join("") || `<tr><td colspan="6" class="muted">No anomalies in the most recent months.</td></tr>`}</tbody>
         </table></div>
       </section>
 
